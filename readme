@@ -1,0 +1,109 @@
+# Notes Web Application
+
+Hi! You are welcome :)
+This is a web application for managing notes. Users can create, edit, delete, and categorize notes. The application is built using the MERN stack (MongoDB, Express, React, Node.js).
+
+## Default User/Password
+   
+   User:        Mary
+   Password:    mary1234
+
+## Prerequisites
+
+To run this application, ensure you have the following installed:
+
+- **Node.js**: v18.17.0 or higher
+- **npm**: v9.8.0 or higher
+- **MongoDB**: v6.0 or higher
+
+## Environment Variables Configuration
+
+1. Create a `.env` file in the root of the project.
+2. Add the following environment variable:
+
+MONGO_URI=mongodb+srv://<username>:<password>@sashawf.j7d1wjx.mongodb.net/NotesApp?retryWrites=true&w=majority
+
+3. Substitute `<username>` and `<password>` with your credentials of MongoDB Atlas.
+
+## Development Tools Used
+
+  - **Visual Studio Code**: v1.83.1 Download from https://code.visualstudio.com/.
+
+  - **Git**: v2.42.0 For version control. Install Git from https://git-scm.com/.
+
+  - **Postman**: v10.19.8 Useful for testing APIs. Download from https://www.postman.com/.
+
+## Frontend
+
+The frontend of this application is built with React.
+
+### Tools and Libraries
+
+- **React**: ^18.3.1
+- **React DOM**: ^18.3.1
+- **React Router DOM**: ^7.1.1
+- **Axios**: ^1.7.9
+- **Font Awesome**: ^4.7.0
+- **@react-icons/all-files**: ^4.1.0
+
+### Running the Frontend
+
+1. Navigate to the `Frontend` directory:
+   ```bash
+   cd Frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://http://localhost:5173`.
+
+## Backend
+
+The backend is built with Node.js, Express, and MongoDB.
+
+### Tools and Libraries
+
+- **Express**: ^4.21.2
+- **Mongoose**: ^8.9.4
+- **Dotenv**: ^16.4.7
+- **Cors**: ^2.8.5
+- **Bcrypt**: ^5.1.1
+- **Bcryptjs**: ^2.4.3
+- **Jsonwebtoken**: ^9.0.2
+- **Nodemon**: ^3.1.9
+
+
+### Running the Backend
+
+1. Navigate to the `Backend` directory:
+   ```bash
+   cd Backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the server:
+   ```bash
+   npm start
+   ```
+4. The backend server will run on `http://localhost:8080`.
+
+## Additional Information
+
+- **Database**: MongoDB is used to store user notes and categories.
+- **Authentication**: JSON Web Tokens (JWT) are used for user authentication.
+
+---
+
+Feel free to reach out if questions!
+
+
+
+
+

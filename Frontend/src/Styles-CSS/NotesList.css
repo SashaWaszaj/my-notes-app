@@ -1,0 +1,80 @@
+.tab-button {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #0029a8;
+    color: #f9ff00;
+    border-style: none;
+  }
+.list-main-container{
+  margin-top: 50px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: #0a24fe;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.title-buttons-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-14{
+  border: none;
+  background-color: #0000;
+  color: none;
+}
+.button-1:hover{
+  cursor: pointer;
+}
+.box{
+  border-top: #0a24fe;
+  border-top-style: solid;
+  margin-top: 10px;
+}
+.my-notes-title{
+  margin: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #ff75ed;
+}
+.my-notes-title:hover{
+  color: rgb(163, 65, 163);
+}
+.add-note-button, .add-note-button a{
+  font-family: monospace;
+  border-style: none;
+  background-color: #0000;
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.add-note-button a:hover{
+  text-decoration: underline;
+}
+.tab-button{
+  font-family:  monospace;
+  background-color: #0000;
+  color: #ddd;
+  padding: 5px 25px;
+}
+.active-archive-button-container{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.filter-label{
+  font-family: monospace;
+  margin-right: 10px;
+}
+.button-14 i:hover{
+  cursor: pointer;
+}
+.title-note{
+  color: #f9ff00
+}
+  

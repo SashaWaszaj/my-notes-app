@@ -1,0 +1,39 @@
+.desktop-display{
+    display: flex;
+    flex-direction: row;
+}
+.form-container{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input{
+    background-color: #383737;
+    color: #ddd;
+    font-family: monospace;
+}
+.input-container label{
+    font-family: monospace;
+    font-size: larger;
+}
+.input-container h4{
+    margin-bottom: 10px;
+}
+.input-container{
+    margin-bottom: 10px;
+}
+.input-container-tag input{
+    margin-right: 15px;
+}
+.button-2, .button-3{
+    font-family:  monospace;
+    background-color: #242424;
+    color: #ddd;
+    padding: 5px 25px;
+}
+.button-3{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.title{
+    color: #00def5;
+}

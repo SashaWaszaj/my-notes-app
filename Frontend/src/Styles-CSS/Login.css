@@ -1,0 +1,49 @@
+.form-container-login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form-container-login form{
+    border-style: solid;
+    border-color: #0a24fe;
+    margin: 120px 0;
+    padding: 50px 100px;
+}
+.create-account-link{
+    font-family: monospace;
+}
+.input-box{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.input-box label{
+    margin-right: 10px;
+}
+.button-1{
+    font-family: 'Press Start 2P', monospace;
+    font-size: smaller;
+    padding: 15px 20px;
+    background-color: #0029a8;
+    color: #f9ff00;
+    border-style: none;
+}
+.button-2{
+    font-family: monospace;
+    margin-left: 10px;
+}
+.button-2:hover{
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+    color: #ff75ed;
+}
+
